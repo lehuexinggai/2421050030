@@ -1,0 +1,93 @@
+<html>
+    <head>
+        <title>Bài 3</title>
+    </head>
+    <body>
+
+       <!-- Danh sách thứ tự-->
+        <ol>
+            <li>C#</li>
+            <li>Python</li>
+            <li>Java</li>
+        </ol>
+        <!-- Danh sách không có thứ tự-->
+        <ul>
+            <li>C#</li>
+            <li>Python</li>
+            <li>Java</li>
+            </ul>
+
+            <!-- Tạo form đăng ký-->
+            <h1>Form đăng ký</h1>
+            <form>
+                <div>
+                    <b>Họ và tên</b><br>
+                   <!--Nếu input k có type thì sẽ mặc định là text-->
+                   <!-- Thuộc tính readonly sử dụng khi không muốn người dùng nhập thông tin vào input-->
+                <input type="text" placeholder="Họ và tên">
+                </div>
+                <div>
+                    <b>Năm sinh</b><br>
+                    <input type="number" placeholder="Năm sinh">
+                </div>
+                <div>
+                    <b>Mật khẩu</b><br>
+                    <input type="password" placeholder="Mật khẩu"><!--thẻ input giới hạn kí tự-->
+                </div>
+                 <div>
+                    <b>Giới thiệu bản thân</b><br>
+                    <textarea>Nhập thông tin...</textarea><!-- thẻ textarea k bị giới hạn kí tự -->
+                </div>
+                <div>
+                    <b>Email</b><br>
+                    <input type="email">
+                </div>
+                <div>
+                    <b>Số điện thoại</b><br>
+                    <input type="tel"
+                    pattern="([0]{1}([3,9,8]{1})([0-9]{8}))">
+                </div>
+                <div>
+                    <b>Giới tính</b><br><!-- chọn 1 lựa chọn-->
+                    <input type="radio" name="gioitinh" value="nam"> Nam<br>
+                    <input type="radio" name="gioitinh" value="nu"> Nữ
+                </div>
+                <div>
+                    <b>Sở thích</b><br><!-- chọn nhiều lựa chọn-->
+                    Chơi game:<input type="checkbox" name="sothich" value="choigame"><br>
+                    Nghe nhạc:<input type="checkbox" name="sothich" value="nghe nhạc"><br>
+                    Thể thao:<input type="checkbox" name="sothich" value="thể thao"><br>
+                </div>
+                <div>
+                    <b>Trình duyệt web ưa thích</b><br>
+                    <select name="browsers">
+                        <option value="Internet Explorer">Internet Explorer</option>
+                        <option value="Safari">Safari</option>
+                        <option value="Cốc cốc">Cốc cốc</option>
+                        <option value="GG Chorme">GG Chorme</option>
+                    </select>
+                </div>
+                <div>
+                    0<input type="range" id="a" value="50">100
+                </div>
+
+                <div>
+                    <input type="submit">
+                    <button>Xác nhận</button>
+                    <input type="reset">
+                </div>
+                </div>
+            </form>
+<!-- Chèn vd trên mạng-->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/yIuM9aFTBFs?si=39UY0"></iframe>
+   <!-- Chèn vd trong máy-->
+    <video controls width="560" height="315">
+        <source src="../Anh/vd1.mp4" type="video/mp4">
+    </video>
+    <!-- Chèn bài hát-->
+     <audio controls >
+        <source src="../Anh/Bầu Trời Mới.mp3" type="audio/mp3">
+     </audio>
+     
+        </body>
+</html>
