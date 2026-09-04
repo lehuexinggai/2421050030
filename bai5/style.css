@@ -1,0 +1,24 @@
+h3{
+color:yellow;
+background-color:blue;
+}
+
+#tieude-1{
+    background-color:green;
+}
+
+.tieude-2{
+    background-color:red;
+}
+
+
+div.Web4{
+    color:brown;
+    background-color:orange;
+}
+
+#Web5{
+    margin: 10px 20px 5px 50px;
+    padding: 10px 20px 5px 50px;
+    display:inline-block;
+}
