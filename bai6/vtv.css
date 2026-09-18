@@ -1,0 +1,27 @@
+body{
+    margin:0;
+}
+.danh-muc{
+    background-color:red;
+    width: 100%;
+    height: 12vh;
+}
+.tieu-de{
+    background-color:blue;
+    width: 50%;
+    height: 50vh;
+    margin: 30px auto;
+}
+.danh-sach{
+    width: 95%;
+    height: 20vh;
+    margin:20px auto;
+    background-color:black;
+    display:flex;
+}
+.danh-sach-kenh-1{
+    width: 15%;
+    height:20vh;
+    background-color:aqua;
+    display:flex;
+}
