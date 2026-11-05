@@ -9,6 +9,7 @@ body{
             list-style:none;
             margin: 0px;
             display: flex;
+            
         }
         .muc{
             /* background-color:red;*/
@@ -25,7 +26,7 @@ body{
         .khoi-trai{
             
             width:20%;
-            height:90vh;
+            height:1250px;
             /* Để vẽ viền dùng Border
             border sẽ có 3 tham số (độ dày - loại đường viền - màu sắc) */
             border-right: 1px solid #2fa4e7;
@@ -75,7 +76,7 @@ body{
         }
         .khoi-phai{
             width:80%;
-            height:600px;
+            height:1250px;
         }
         .tin{
             width: 95%;
@@ -127,10 +128,129 @@ img {
             color: #2fa4e7;
             text-decoration: none;
 }
+
 .van-ban{
-    width: 50%;
-    background-color: red;
+    width: 57%;
+    height: 230px;
+    border-left: 2px solid #dedede;
+  
+}
+a{
+    color:black;
+}
+.bai-viet-1{
+    width: 100%;
+    height: 85px;
+    border-bottom: 2px solid #dedede;
+
+}
+.bai-viet-2{
+    width: 100%;
+    height:70px;
+
+    border-bottom: 2px solid #dedede;
+}
+.bai-1{
+    padding: 15px 10px;
+    display: flex;
+    align-items: center;
+    color:black;
+}
+.bai-2{
+    padding: 20px 10px;
+    display:flex;
+    align-items: center;
+    color:black;
+}
+.bai-viet-3{
+    width: 100%;
+    height: 75px;
+    
+}
+.bai-3{
+    padding: 10px 10px;
+    display:flex;
+    align-items: flex-end;
+    color:black
+}
+.bai-viet-4{
+    width:100%;
+    height: 48px;
+    
+    border-bottom: 2px solid #dedede;
+}
+.bai-viet-5{
+    width:90%;
+    height: 75px;
+    
+    border-bottom: 2px solid #dedede;
+}
+.bai-viet-6{
+    width:80%;
+    height: 110px;
+  
+}
+.tin-1{
+            width: 95%;
+            height: 250px;
+            margin: 20px auto;
+            border: 1px solid #2fa4e7;
+            border-radius: 10px;
+         
+}
+.danh-sach-tin-1{
+    padding: 40px;
+    display:flex;
+    justify-content:space-around;
+}
+.trang-chu{
+    width:100%;
+    height:70px;
+    
+    border-bottom:  2px solid #0078D4;
+}
+.trang-chu-1{
+    width:100%;
+    height:30px;
+   
+    display: flex;
+    border-bottom:  2px solid #0078D4;
+  
+}
+.lien-ket{
+    display:flex;
+    color:#0078D4;
+    padding: 10px 5px;
+   
 }
 
+  
+.lien-ket-1{
+    display:flex;
+    color:#0078D4;
+    padding:2px 0px 20px 5px;
+  
+}
+.truong{
+    width: 90%;
+    height: 150px;
     
+}
+.anh-truong{
+    height:auto;
+    display:flex;
+  
+    width: 100%;
+    margin:auto;
+}
+.lien-ket-muc{
+    color:white;
+}
+
+
+
+
+
+
+
     

@@ -1,0 +1,230 @@
+body{
+    margin: 0;
+    
+}
+.thu{
+    
+    width: 100%;
+    height: 50px;
+    display: flex;
+}
+.noi-dung{
+    display: flex;
+}
+.tiet{
+   background-color: #2fa4e7;
+    width: 5%;
+    height:152vh;
+    
+}
+.mon{
+    
+    width: 90%;
+    height: 150vh;
+    display:flex;
+}
+.gio{
+   background-color: #2fa4e7;
+    width: 5%;
+    height: 152vh;
+}
+.mui-ten-1{
+    width: 5%;
+    
+    height:50px;
+    display: flex;
+}
+.thu-ngay{
+    width: 90%;
+   
+    height: 50px;
+    display: flex;
+}
+.mui-ten-2{
+    width:5%;
+    
+    height: 50px;
+    display: flex;
+}
+.met{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    padding: 8px 17px;
+}
+.hi{
+   
+    width:15%;
+    height: 50px;
+    display: flex;
+    border: 1px solid #dee2e6;
+}
+.lien-ket-thu{
+    text-decoration: none;
+    padding: 20px 5px 25px 30px;
+    color: black;
+    font-size: 20px;
+}
+.ngay{
+    color:#868e96;
+   text-decoration: none;
+   font-size: 20px;
+}
+.lien-ket-thu-cn{
+   text-decoration: none;
+   font-size:19px;
+   padding: 18px 5px 25px 20px;
+   color: black;
+}
+.ngay-cn{
+    color:#868e96;
+   text-decoration: none;
+   font-size: 19px;
+}
+.so-tiet{
+    display:flex;
+    width: 100%;
+    height: 13.75vh;
+    border-bottom: 1px solid #dee2e6;
+    
+}
+.so-tiet-nho{
+    display:flex;
+    width: 100%;
+    height: 5vh;
+    border-bottom: 1px solid #dee2e6;
+}
+.so-tiet-to{
+    display:flex;
+    width: 100%;
+    height: 20vh;
+    border-bottom: 1px solid #dee2e6;
+}
+.lien-ket-tiet{
+    color: #fff;
+    text-decoration: none;
+    padding: 5.5vh 2vh;
+}
+.lien-ket-tiet-nho{
+     color: #fff;
+    text-decoration: none;
+    padding: 1.5vh 2vh;
+}
+.lien-ket-tiet-to{
+     color: #fff;
+    text-decoration: none;
+    padding: 9vh 1.5vh;
+}
+.lien-ket-tiet-nho-1{
+    color: #fff;
+    text-decoration: none;
+    padding: 1.5vh 1.5vh;
+}
+.lien-ket-tiet-1{
+    color: #fff;
+    text-decoration: none;
+    padding: 5.5vh 1.5vh;
+}
+.thu-2{
+    width: 14.4%;
+    height: 150vh;
+    
+    border-right: 1px solid #dee2e6;
+}
+.mon-hoc{
+    display:flex;
+    width: 100%;
+    height: 13.75vh;
+    border-bottom: 1px solid #dee2e6;
+
+}
+.mon-hoc-nho{
+     display:flex;
+    width: 100%;
+    height: 5vh;
+    border-bottom: 1px solid #dee2e6;
+}
+.mon-hoc-to{
+   
+    background-color:#c4daf0 ;
+    width: 100%;
+    height:27.55vh;
+    border: 1px solid #2fa4e7 ;
+}
+.mon-3-tiet{
+    background-color:#c4daf0 ;
+    width: 100%;
+    height:30.5vh;
+    border: 1px solid #2fa4e7 ;
+}
+.mon-1{
+    text-decoration: none;
+    color: black;
+    
+}
+.nhom{
+    text-decoration: none;
+    color: black;
+    
+}
+.nhom-1{
+    text-decoration: none;
+    color: black;
+    
+}
+.phong{
+    text-decoration: none;
+    color: black;
+    
+    
+}
+.phong-1{
+    text-decoration: none;
+    color: black;
+    
+}
+.gv{
+    text-decoration: none;
+    color: black;
+    
+}
+.gv-1{
+    text-decoration: none;
+    color: black;
+    
+}
+.gio-hoc{
+    text-decoration: none;
+    color: black;
+   paddng: 1.5vh 0vh;
+}
+.mon-hoc-10{
+    display:flex;
+    width: 100%;
+    height: 20vh;
+    border-bottom: 1px solid #dee2e6;
+}
+.mon-3-tiet-5{
+    background-color:#c4daf0 ;
+    width: 100%;
+    height:32.55vh;
+    border: 1px solid #2fa4e7 ;
+}
+.mon-hoc-4-tiet{
+    background-color:#c4daf0 ;
+    width: 100%;
+    height:24.5vh;
+    border: 1px solid #2fa4e7 ;
+}
+.so-tiet-1{
+    display:flex;
+    width: 100%;
+    height: 14vh;
+    border-bottom: 1px solid #dee2e6;
+}
+.thu-duoi{
+    width: 100%;
+    height: 50px;
+    display: flex;
+
+}

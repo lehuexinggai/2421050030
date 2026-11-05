@@ -232,11 +232,91 @@
         else{
             document.writeln("A+");
         }
+          //object var name = ()
+        var thongTinSinhVien = {
+            hoTen: "Dang Ngoc Thang",
+            tuoi: 29,
+            gioiTinh: true, //true:Nam, false: nữ
+            diaChi: {
+                thanhPho: "Ha Noi",
+                phuong: "Dong Ngac",
+                duong: "Le Van Hien",
+            }
+        };
+        var BoPhim = {
+            tenPhim: "Mua Do",
+            ngayChieu: "8/10/2026",
+            NhaXBan: "Ngoc Thang",
+            DonViXBan: "Humg Media",
+            GiaVe: {
+                trongTuan: 50000,
+                cuoiTuan: 65000,
+            },
+            dienVien: {
+                dienVienChinh: [
+                    "Đỗ Nhật Hòang", "Lê Hạ Anh", "Steven Nguyễn"
+                ],
+                dienVienPhu: [
+                    "Đỗ Nhật Hòang", "Lê Hạ Anh", "Steven Nguyễn"
+                ],
+            },
+        };
+
+        document.writeln("<br>");
+        document.writeln(BoPhim.dienVien.dienVienChinh[2]);
 
 
+        //switch case
+        var d = new Date();
+        var theDay = d.getDay();
+        switch (theDay) {
+            case 5:
+                document.writeln("Finally Friday");
+                break;
+            case 6:
+                document.writeln("Super Saturday");
+                break;
+            case 0:
+                document.writeln("Sleepy Sunday");
+                break;
+            default:
+                document.writeln("I'm looking forward to this weekend!");
+        }
+        //for
+        //for(var index = 1; index <= 1000; index++) {
+            //document.write("<br> Xin chào! " + index);
+        //}
 
+        var danhSachSinhVien = ["Thuy", "Mai", "Tuan", "Thang", "Thao"]
+        document.writeln("Xin chào!" + danhSachSinhVien[0] + "<br>");
+        for( var i = 0; i < danhSachSinhVien.length; i++) {
+            if (i == 0) {
+                document.writeln(danhSachSinhVien[0] + "<br>");
+            } else if (i === 2) {
+                document.writeln(danhSachSinhVien[2] + "<br>");
+            } 
+        }
+        for( var i = 0; i < danhSachSinhVien.length; i++) {
+            if (danhSachSinhVien[i] == "Tuan" || danhSachSinhVien[i] == "Thuy") {
+                document.writeln("Xin chào!" + danhSachSinhVien[i] + "<br>");
+            } 
+        }
+        //popup boxes
+        alert('helo tyeu!');
 
-
+        //confirm
+        var r = confirm("Press a button")
+        if (r == true) {
+            document.write("You pressed OK!")
+        }
+        else{
+            document.write("You pressed Cancel!")
+        } 
+        
+        // promt
+        r = prompt("Nhập vào họ tên", "Nhập tên vào đây!");
+        document.write(r)
+        
 
     </script>
 
